@@ -3,7 +3,7 @@ const FREE = 0;
 const ISHERE = -1;
 const OUTPUT = 1;
 const LOW_N = 4;
-const HIGH_N = 11;
+const HIGH_N = 16;
 let N = 8;
 let Current = 0;
 let q;
