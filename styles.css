@@ -1,0 +1,35 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+table.chessboard {
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  table.chessboard td {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+  
+  table.chessboard td.white {
+    background: white;
+    color: black;
+  }
+  
+  table.chessboard td.grey {
+    background: grey;
+    color: black;
+  }
+
+  textarea {
+    border: none;
+    resize: none;
+  }
