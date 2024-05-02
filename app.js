@@ -119,12 +119,15 @@ function stopShowingSolution() {
 }
 
 function toggleSolution() {
+  const button = document.getElementById('show_button');
   if (!showingSolutions) {
     // Если показ решений не активен, запускаем его
     showingSolutions = true;
+    button.textContent = 'Остановка';
     showSolution();
   } else {
     // Если показ решений активен, останавливаем его
     stopShowingSolution();
+    button.textContent = 'Показать решение';
   }
 }
